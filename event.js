@@ -3,10 +3,10 @@ function makeRed(){
     document.getElementById("heading").innerText = "Testing Event Onclick";
 }
 
-// function makeGreen(){
-//     document.body.style.backgroundColor = "green";
-//     document.getElementById("heading").innerText = "success button clicked";
-// }
+function makeGreen(){
+    document.body.style.backgroundColor = "green";
+    document.getElementById("heading").innerText = "success button clicked";
+}
 
 const myEvent = document.getElementById("blue-btn");
 myEvent.addEventListener("click", function(){
